@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.home-img-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.sm-home-img {
+  width: 80%;
+  max-width: 468px;
+}
+@media screen and (min-width: 768px) {
+  .sm-home-img {
+    display: none;
+  }
+  .lg-home-img {
+    width: 100%;
+    max-width: 1110px;
+  }
+}

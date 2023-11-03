@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.not-found-content-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.not-found-responsive-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-img {
+  width: 300px;
+  height: 250px;
+}
+.not-found-heading {
+  color: #616e7c;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: roboto;
+}
+.description {
+  color: #dcdcdc;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: 800;
+}
